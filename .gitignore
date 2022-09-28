@@ -5,6 +5,7 @@ public
 .vscode
 .DS_Store
 .env
+.history
 *.log
 yarn.lock
 gatsby-node.old.js

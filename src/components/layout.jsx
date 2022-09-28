@@ -9,7 +9,6 @@ export function Layout({ children }) {
       <SkipNavLink />
       <Header />
       <SkipNavContent>{children}</SkipNavContent>
-      <Footer />
     </div>
   )
 }
