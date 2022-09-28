@@ -15,6 +15,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: process.env.GOOGLE_TAG_MANAGER_ID,
+        includeInDevelopment: false,
+      },
+    },
+    {
       resolve: "gatsby-source-shopify",
       options: {
         password: process.env.SHOPIFY_SHOP_PASSWORD,
